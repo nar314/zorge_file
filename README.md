@@ -4,16 +4,15 @@
 
 This is utility to encrypt and decrypt files using GUI or command line.
 
-## How to run.
-
-GUI.
+## How to run in GUI mode.
 
 ```sh
 java -jar zorge_file-1.0.jar
 ```
 ![dialog](https://github.com/user-attachments/assets/9c29dd3c-dbda-42cf-a40e-26fb31807799)
 
-Command line.
+## How to run in command line mode.
+
 ```sh
 java -jar zorge_file-1.0.jar /?
 
