@@ -248,7 +248,8 @@ public class MainWindow {
 						+ "Utility to encrypt and decrypt files. Version " + ver + "\n\n"
 						+ "Free and open source.\n\n"
 						+ "Build in memory of Richard Sorge.\n"
-						+ "https://en.wikipedia.org/wiki/Richard_Sorge\n";
+						+ "https://en.wikipedia.org/wiki/Richard_Sorge\n"
+						+ "\nSources location : https://github.com/nar314/zorge_file";
 				MessageBox_OK(about);
 			}
 		});

@@ -21,7 +21,8 @@ public class App {
 				"'-i' - interactive mode to enter password. You have to provide fake password for interactive mode.\n" +
 				"\n" +
 				"java -jar zf.jar encr myPsw1 file1.txt file1.encr\n" +
-				"java -jar zf.jar decr myPsw1 file1.encr file1.txt\n";
+				"java -jar zf.jar decr myPsw1 file1.encr file1.txt\n" +
+				"\n\nSources location : https://github.com/nar314/zorge_file";
 		System.out.println(help);
 	}
 	
@@ -55,6 +56,10 @@ public class App {
 					interactMode = true;
 				else if(arg.equals("-o"))
 					overwriteMode = true;
+				else if(arg.equals("/?")) {
+					help();
+					return;
+				}
 				else
 					noDashes.add(arg);
 			}
