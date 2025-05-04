@@ -11,6 +11,7 @@ GUI.
 ```sh
 java -jar zorge_file-1.0.jar
 ```
+![dialog](https://github.com/user-attachments/assets/9c29dd3c-dbda-42cf-a40e-26fb31807799)
 
 Command line.
 ```sh
